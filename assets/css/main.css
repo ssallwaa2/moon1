@@ -104,7 +104,8 @@ h2 {
 h1 {
     padding: 80px 0px;
 
-    text-align: center}
+    text-align: center
+}
 
 .size {
     width: calc((100% - 120px) /4);
@@ -113,38 +114,86 @@ h1 {
 .ecommerce {
     display: flex;
     flex-wrap: wrap;
-  padding-left: 165px;
-  padding-right: 165px;
-  margin-top: 80px;
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 80px;
 }
 
-.grid{
+.grid {
     text-align: center;
-    background-color:#f8f6f6 ;
+    background-color: #f8f6f6;
     width: 555px;
-    height: 350px;
+    height: 348px;
 }
 
-.grid h2{
+.grid h2 {
     padding-top: 64px;
     padding-bottom: 24px;
     padding-left: 78.5px;
     padding-right: 78.5px;
-    font-size:30px;
+    font-size: 30px;
 }
 
-.grid p{
-    padding-top: 0px  ;
+.grid p {
+    padding-top: 0px;
     padding-bottom: 32px;
     padding-left: 83px;
-    padding-right:83px ;
-
+    padding-right: 83px;
     text-align: center;
-    font-size:18.89px ;
-    color: #434343;
+    font-size: 18.89px;
+    color: #646363;
 }
 
-.grid a{
-   font-size: 20px;
-   color: black;
+.grid a {
+    font-size: 20px;
+    color: black;
 }
+
+
+
+.row-sec {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 0px;
+}
+
+
+.row {
+    background-color: #f8f6f6;
+    text-align: center;
+    width: 555px;
+    height: 348px;
+}
+
+.row h2 {
+    padding-top: 64px;
+    padding-bottom: 24px;
+    padding-left: 78.5px;
+    padding-right: 78.5px;
+    font-size: 30px;
+}
+
+.row p {
+    width: 555px;
+    padding-top: 0px;
+    padding-bottom: 32px;
+    padding-left: 83px;
+    padding-right: 83px;
+    text-align: center;
+    font-size: 18.89px;
+    color: #646363;
+
+}
+
+.row a {
+    font-size: 20px;
+    color: black;
+}
+
+.row-sec img{
+    width: 555px;
+    height: 348px;
+}
+
