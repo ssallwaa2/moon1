@@ -231,30 +231,94 @@ h2 {
 }
 
 
-.sign{
+.sign {
     text-align: center;
-   padding-bottom: 80px;
+    padding-bottom: 80px;
 }
 
-.sign p{
-    padding-bottom:24px ;
+.sign p {
+    padding-bottom: 24px;
     padding-top: 80px;
     padding-left: 525.5px;
-    padding-right:525.5px ;
+    padding-right: 525.5px;
 }
 
-.sign h1{
-color:rgb(42, 41, 41) ;
- padding-bottom:24px ;
+.sign h1 {
+    color: rgb(42, 41, 41);
+    padding-bottom: 24px;
 }
 
-.sign form{
-  padding-bottom:32px ;
+.sign form {
+    padding-bottom: 32px;
 }
 
-.sign button{
-  padding-bottom: 15px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top:15px ;
+.sign button {
+    padding-bottom: 15px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 15px;
+}
+
+
+.footer {
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3f3d4a;
+}
+
+.footer-item1 img {
+    width: 145px;
+    height: 38.33px;
+}
+
+.arrow-img img {
+    width: 11px;
+    height: 11px;
+}
+
+.footer-item1 {
+    padding-left: 245px;
+    padding-right: 80.27px;
+}
+
+.footer-item1 p {
+    padding-top: 24px;
+    color: white;
+    padding-bottom: 32px;
+    font-size: 15px;
+
+}
+
+
+.footer-item1 button {
+    background-color: #3f3d4a;
+    width: 142px;
+    height: 41px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    text-align: center;
+    padding-top: 9px;
+    padding-left: 25px;
+    color: white;
+}
+
+.footer-item2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    padding-bottom: 70px;
+}
+
+.footer-item2 a {
+    text-decoration: none !important;
+    color: white;
+
+}
+
+.footer-item2 h1{
+    padding-bottom: 32px;
+    color: white;
+    font-size: 25px;
 }
