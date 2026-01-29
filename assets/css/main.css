@@ -100,9 +100,10 @@ h2 {
     background-color: #EEEEEE;
 }
 
+/*
 .v1 {
     padding-bottom: 80px;
-}
+}*/
 
 .Bestsellers h1 {
     padding-left: 370px;
@@ -132,17 +133,17 @@ h2 {
     flex-wrap: wrap;
     padding-left: 165px;
     padding-right: 165px;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 .ecommerce h1 {
     padding-left: 500px;
-    padding-right:500 px;
-    padding-top: 0px;
+    padding-right: 500 px;
+    padding-top: 0;
+    margin: 0;
     padding-bottom: 48px;
     text-align: center;
 }
-
 
 
 .grid {
@@ -170,13 +171,13 @@ h2 {
     color: #646363;
 }
 
-.grid img{
-      width: 555px;
+.imgg {
+    width: 555px;
     height: 348px;
 }
 
 .grid a {
-    margin-top: 32px;
+    padding-top: 32px;
     font-size: 20px;
     color: rgb(70, 70, 70);
 }
@@ -227,4 +228,33 @@ h2 {
 .row-sec img {
     width: 555px;
     height: 348px;
+}
+
+
+.sign{
+    text-align: center;
+   padding-bottom: 80px;
+}
+
+.sign p{
+    padding-bottom:24px ;
+    padding-top: 80px;
+    padding-left: 525.5px;
+    padding-right:525.5px ;
+}
+
+.sign h1{
+color:rgb(42, 41, 41) ;
+ padding-bottom:24px ;
+}
+
+.sign form{
+  padding-bottom:32px ;
+}
+
+.sign button{
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top:15px ;
 }
