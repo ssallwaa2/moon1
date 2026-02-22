@@ -7,10 +7,17 @@
 html {
     --primary-color: #3A3845;
     --primaryfont: Inter;
-    --secondary-color:#E5E5E5;
+    --secondary-color: #E5E5E5;
 }
 
-
+/*
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}*/
 
 .cont {
     width: calc(100% -300px);
@@ -30,7 +37,13 @@ html {
     justify-content: center;
 }
 
+.menu {
+    display: none;
+}
 
+.shopping {
+    display: none;
+}
 
 .list ul {
     font-size: 14px;
@@ -58,7 +71,6 @@ html {
 .collection-section {
     flex-wrap: wrap;
     padding-top: 40px;
-
     /* padding-bottom: 40px;
     margin: 0px 165px;*/
     display: flex;
@@ -75,6 +87,7 @@ html {
 
 img {
     width: 100%;
+    display: block;
 }
 
 h2 {
@@ -99,7 +112,8 @@ h2 {
 
 
 .Bestsellers h2 {
-    padding-bottom: 24px;
+
+    padding-bottom: 12px;
     color: var(--primary-color);
     font-size: 14px;
     font-family: var(--primaryfont);
@@ -114,16 +128,29 @@ h2 {
     padding-bottom: 58px;
 }
 
+
+.Bestsellers span {
+    font-family: var(--primaryfont);
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
 .Bestsellers button {
     width: 265px;
     height: 39px;
     font-family: var(--primaryfont);
-    font-weight: 500
+    font-weight: 500;
+    background-color: white;
 }
 
 .v2 {
     padding-bottom: 80px;
-    background-color: #EEEEEE;
+    /*
+    background-color: #EEEEEE;*/
 }
 
 
@@ -151,6 +178,8 @@ h2 {
 .size {
     width: calc((100% - 120px) /4);
 }
+
+
 
 .ecommerce {
     display: flex;
@@ -386,4 +415,159 @@ h3 {
     color: var(--secondary-color);
     font-size: 12px;
     font-family: var(--primaryfont);
+
+}
+
+
+@media screen and (min-width:0px) and (max-width:996px) {
+    .list ul {
+        display: none;
+    }
+
+    .icon ul {
+        display: none;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shopping {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:500px) {
+
+    .collection-section .collection {
+        width: calc((100% - (1*30px)) / 1);
+    }
+
+
+}
+
+@media screen and (min-width:501px) and (max-width:700px) {
+
+    .collection-section .collection {
+        width: calc((100% - (2*30px)) / 2);
+    }
+
+
+}
+
+@media screen and (min-width:701px) and (max-width:1000px) {
+
+    .collection-section .collection {
+        width: calc((100% - (3*30px)) / 3);
+    }
+
+}
+
+@media screen and (min-width:1001px) and (max-width:1450px) {
+
+    .collection-section .collection {
+        width: calc((100% - (4*30px)) / 4);
+    }
+
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:921px) {
+
+    .Bestsellers h1 {
+        font-size: 50px;
+    }
+
+    .Bestsellers .size {
+        width: calc((100% - (1*30px)) / 1);
+
+    }
+
+    .Bestsellers img {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width:921px) and (max-width:1000px) {
+    .Bestsellers .size {
+        width: calc((100% - (2*30px)) / 2);
+    }
+
+}
+
+@media screen and (min-width:1001px) and (max-width:1400px) {
+    .Bestsellers .size {
+        width: calc((100% - (3*30px)) / 3);
+    }
+
+}
+
+@media screen and (min-width:921px) and (max-width:1000px) {
+    .Bestsellers .size {
+        width: calc((100% - (4*30px)) / 4);
+    }
+
+}
+
+
+
+@media screen and (min-width:486px) and (max-width:727px) {
+
+    .ecommerce .grid {
+        font-size: small;
+    }
+
+    .ecommerce .grid h4 {
+        font-size: 20px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .ecommerce .grid p {
+        font-size: 17px;
+        padding: 20px 0px;
+    }
+
+}
+
+
+
+@media screen and (min-width:0) and (max-width:485px) {
+
+    .ecommerce .grid {
+        font-size: small;
+    }
+
+    .ecommerce .grid h4 {
+        font-size: 20px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .ecommerce .grid p {
+        font-size: 13px;
+        padding: 20px 0px;
+    }
+
+    .ecommerce .grid img {
+        width: 100%;
+
+    }
 }
